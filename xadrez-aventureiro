@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+    // Definindo o número de casas que o cavalo se move
+    int casasParaBaixo = 2;
+    int casasParaEsquerda = 1;
+
+    // Imprime um cabeçalho para separar os movimentos das peças
+    printf("Movimento do Cavalo:\n");
+
+    // Loop para o movimento do cavalo - duas casas para baixo
+    for (int i = 0; i < casasParaBaixo; i++) {
+        printf("Baixo\n");
+    }
+
+    // Loop para o movimento do cavalo - uma casa para a esquerda
+    int j = 0; // Inicializa o contador para o movimento à esquerda
+    while (j < casasParaEsquerda) {
+        printf("Esquerda\n");
+        j++;  // Incrementa o contador do movimento à esquerda
+    }
+
+    // Finaliza o movimento do cavalo
+    printf("\n");
+    return 0;
+}
