@@ -1,4 +1,4 @@
-# xadrez-aventureiro
+# Xadrez-aventureiro
 Xadrez-Aventureiro
 # Desafio - Movimentando o Cavalo no Tabuleiro de Xadrez
 
